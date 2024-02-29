@@ -56,12 +56,7 @@ Text Domain:	 chicdressing
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+
 
 /* Rokkitt */
 @font-face {
