@@ -14,7 +14,72 @@ Text Domain:	 chicdressing
     Add your custom styles here
 */
 
-body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+/*                                  Fonts                                   */
+/* Kalam */
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam/Kalam-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/Kalam/Kalam-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+/* Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Rokkitt */
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('assets/fonts/Rokkitt/Rokkitt-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('assets/fonts/Rokkitt/Rokkitt-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*                                  General                                   */
+
+body{
     color: #a5a5a5;
     font-size: 12px;
 }
