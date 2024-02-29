@@ -1,0 +1,18 @@
+2024-02-26T13:11:07+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/file.php:161
+Stack trace:
+#0 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/file.php(161): implode(Array, '|')
+#1 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/core/base.php(820): WYSIJA_help_file->clear()
+#2 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/cron.php(184): WYSIJA::croned_daily()
+#3 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/core/base.php(1525): WYSIJA_help_cron->run()
+#6 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-includes/class-wp-hook.php(324): init_wysija_cron('')
+#7 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-settings.php(643): do_action('init')
+#10 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-config.php(103): require_once('/Users/ripoc/Lo...')
+#11 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-load.php(50): require_once('/Users/ripoc/Lo...')
+#12 /Users/ripoc/Local Sites/chic-dressing/app/public/wp-cron.php(46): require_once('/Users/ripoc/Lo...')
+#13 {main}
+  thrown dans /Users/ripoc/Local Sites/chic-dressing/app/public/wp-content/plugins/wysija-newsletters/helpers/file.php à la ligne 161
+
