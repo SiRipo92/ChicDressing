@@ -13,68 +13,55 @@ Text Domain:	 chicdressing
 /*
     Add your custom styles here
 */
-
-/*                                  Fonts                                   */
-/* Kalam */
 @font-face {
     font-family: 'Kalam';
-    src: url('assets/fonts/Kalam/Kalam-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Kalam';
-    src: url('assets/fonts/Kalam/Kalam-Bold.ttf') format('truetype');
-    font-weight: bold;
+    src: url(assets/fonts/WOFF2/Kalam-Bold.woff2) format('woff2');
     font-style: bold;
 }
-
 @font-face {
     font-family: 'Kalam';
-    src: url('assets/fonts/Kalam/Kalam-Light.ttf') format('truetype');
-    font-weight: lighter;
-    font-style: normal;
+    src: url(assets/fonts/WOFF2/Kalam-Light.woff2) format('woff2');
+    font-style: light;
 }
-/* Open Sans */
 @font-face {
-    font-family: 'Open Sans';
-    src: url('assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Kalam';
+    src: url(assets/fonts/WOFF2/Kalam-Regular.woff2) format('woff2');
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: url('assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
+    src: url(assets/fonts/WOFF2/OpenSans-Italic-VariableFont_wdth\,wght.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(assets/fonts/WOFF2/OpenSans-VariableFont_wdth\,wght.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Playfair Display'; 
+    src: url(assets/fonts/WOFF2/PlayfairDisplay-Italic-VariableFont_wght.woff2) format('woff2');
     font-style: italic;
 }
-
-/* Playfair Display */
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-/* Rokkitt */
-@font-face {
-    font-family: 'Rokkitt';
-    src: url('assets/fonts/Rokkitt/Rokkitt-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Playfair Display'; 
+    src: url(assets/fonts/WOFF2/PlayfairDisplay-VariableFont_wght.woff2) format('woff2');
     font-style: normal;
 }
 @font-face {
     font-family: 'Rokkitt';
-    src: url('assets/fonts/Rokkitt/Rokkitt-Italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
+    src: url(assets/fonts/WOFF2/Rokkitt-Italic-VariableFont_wght.woff2) format('woff2');
     font-style: italic;
 }
+@font-face {
+    font-family: 'Rokkitt';
+    src: url(assets/fonts/WOFF2/Rokkitt-VariableFont_wght.woff2) format('woff2');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fontello';
+    src: url(assets/fonts/WOFF2/fontello.woff2) format('woff2');
+}
 
-/*                                  General                                   */
-
-body{
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
     color: #a5a5a5;
     font-size: 12px;
 }
